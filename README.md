@@ -1,0 +1,3 @@
+JS BASIC CONCEPTS 
+-loops
+    -for ... of ...
