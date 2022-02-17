@@ -10,3 +10,4 @@ console.log("Hey hey hey \n hey")
     for (let i = 1; i <= 6; i++){
         console.log("Da ba dee da ba daa");
     }
+    comments.length
