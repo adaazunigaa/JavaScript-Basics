@@ -87,7 +87,7 @@ console.log(adult(18)); //will return false because 18 is led
 
 // METHODS ***********************************************************
 const myMath = {
-    PI = 3.1416,
+    //pI = 3.1416,
 
     square: function(nun){
         return num * nun;
@@ -110,6 +110,40 @@ const myMath = {
 // }
 
 
+// // another sample
+// const square = {
+//     area(side){
+//         return side * side;
+//     },
+//     perimeter(side){
+//         return side * 4;
+//     }
+// }
 
 
 
+
+// KEYWORD "this" **********************************
+const cat = {
+    name: "Blue",
+    color: "grey",
+    breed: "scottish fold",
+    meow(){
+        console.log(`${this.name} says MEoW MEoW MEoW MEoW`)
+    }
+}
+//Console
+    //cat.meow();
+    //cat.name;
+    //cat.color;
+
+
+//ANOTHER SAMPLE OF THE KEYWORD "this"
+const hen = {
+    name: "Helen",
+    eggCount: 0,
+    layAnEgg(){
+        this.eggCount++;
+        return "EGG";
+    }
+}
