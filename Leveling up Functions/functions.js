@@ -76,3 +76,40 @@ console.log(child(5)); //it will return true becasue 5 is between 0 and 18
 
 let adult = makeBetweenFunc(19, 65);
 console.log(adult(18)); //will return false because 18 is led 
+
+
+
+
+
+
+
+
+
+// METHODS ***********************************************************
+const myMath = {
+    PI = 3.1416,
+
+    square: function(nun){
+        return num * nun;
+    },
+    cube: function (num){
+        return num * num * num;
+    }
+}
+
+// New way to define methods in js
+// const myMath = {
+//     PI = 3.1416,
+
+//     square(nun){
+//         return num * nun;
+//     },
+//     cube(num){
+//         return num * num * num;
+//     }
+// }
+
+
+
+
+
