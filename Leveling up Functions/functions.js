@@ -11,7 +11,7 @@ function bankRobbery(){
 }
 
 
-// FUNCTION EXPRESSIONS 
+// FUNCTION EXPRESSIONS ***************************
 //  different syntax for defining a function
 //  functions are values 
 const add = function(x,y){
@@ -21,3 +21,18 @@ const add = function(x,y){
 const square = function (num){
     return (num*num);
 }
+
+
+
+// HIGHER ORDER FUNCTIONS *****************************
+function callTwice(func){
+    func();
+    func();
+}
+
+function rollDie(){
+    const roll = Math.floor(Math.random() * 6) + 1;
+    console.log(roll);
+}
+
+callTwice(rollDie);
