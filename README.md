@@ -3,4 +3,7 @@ JS BASIC CONCEPTS
     -for ... of ...
     -for ... in ... 
     -Object method to iterate an object 
+    -Arrays
+    -Methods 
+    -Functions
     
