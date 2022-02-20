@@ -89,10 +89,10 @@ console.log(adult(18)); //will return false because 18 is led
 const myMath = {
     //pI = 3.1416,
 
-    square: function(nun){
+    square: function (nun) {
         return num * nun;
     },
-    cube: function (num){
+    cube: function (num) {
         return num * num * num;
     }
 }
@@ -128,21 +128,21 @@ const cat = {
     name: "Blue",
     color: "grey",
     breed: "scottish fold",
-    meow(){
+    meow() {
         console.log(`${this.name} says MEoW MEoW MEoW MEoW`)
     }
 }
 //Console
-    //cat.meow();
-    //cat.name;
-    //cat.color;
+//cat.meow();
+//cat.name;
+//cat.color;
 
 
 //ANOTHER SAMPLE OF THE KEYWORD "this"
 const hen = {
     name: "Helen",
     eggCount: 0,
-    layAnEgg(){
+    layAnEgg() {
         this.eggCount++;
         return "EGG";
     }
